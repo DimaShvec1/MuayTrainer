@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🥊"
+        android:textSize="80sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MUAY THAI"
+        android:textColor="@color/muay_red"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.15"
+        android:shadowColor="#66D32F2F"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRAINER"
+        android:textColor="@color/muay_gold"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.3"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Твой персональный тренажёр"
+        android:textColor="#AAAAAA"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_start_app"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/muay_red"
+        android:text="🏆 НАЧАТЬ"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.15" />
+
+</LinearLayout>

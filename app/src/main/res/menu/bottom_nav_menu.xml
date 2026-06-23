@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_techniques"
+        android:icon="@drawable/ic_techniques"
+        android:title="Техники" />
+
+    <item
+        android:id="@+id/nav_workout"
+        android:icon="@drawable/ic_workout"
+        android:title="ОФП" />
+
+    <item
+        android:id="@+id/nav_timer"
+        android:icon="@drawable/ic_timer"
+        android:title="Таймер" />
+
+    <item
+        android:id="@+id/nav_dictionary"
+        android:icon="@drawable/ic_dictionary"
+        android:title="Словарь" />
+
+</menu>

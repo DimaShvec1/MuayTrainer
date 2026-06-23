@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="📖 СЛОВАРЬ ТЕРМИНОВ"
+        android:textColor="@color/muay_red"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:letterSpacing="0.1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Удары руками -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🥊 УДАРЫ РУКАМИ"
+                android:textColor="@color/muay_red"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="#33D32F2F"
+                android:padding="12dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Джеб — прямой удар передней рукой"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Кросс — прямой удар задней рукой"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Хук — боковой удар согнутой рукой"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Апперкот — удар снизу вверх"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <!-- Удары ногами -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🦵 УДАРЫ НОГАМИ"
+                android:textColor="@color/muay_red"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="#33D32F2F"
+                android:padding="12dp"
+                android:layout_marginTop="12dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Лоу-кик — удар по бедру"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Мидл-кик — удар в корпус"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Хай-кик — удар в голову"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <!-- Защита -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🛡️ ЗАЩИТА"
+                android:textColor="@color/muay_red"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="#33D32F2F"
+                android:padding="12dp"
+                android:layout_marginTop="12dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Блок голенью — защита от ударов ногами"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Клинч — захват шеи соперника"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Уклон — отклонение корпуса"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <!-- Традиции -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📜 ТРАДИЦИИ"
+                android:textColor="@color/muay_red"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="#33D32F2F"
+                android:padding="12dp"
+                android:layout_marginTop="12dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Кру — учитель, мастер"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Ваи Кру — ритуал уважения к учителю"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Монгкон — повязка на голову"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Праджиат — повязка на плечо"
+                android:textColor="#DDDDDD" android:textSize="15sp" android:padding="6dp" android:paddingStart="16dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

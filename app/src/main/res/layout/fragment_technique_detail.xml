@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- НАЗВАНИЕ -->
+        <TextView
+            android:id="@+id/tv_detail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Название"
+            android:textColor="@color/muay_red"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.05" />
+
+        <!-- КАТЕГОРИЯ -->
+        <TextView
+            android:id="@+id/tv_detail_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Категория"
+            android:textColor="@color/muay_gold"
+            android:textSize="14sp"
+            android:background="#33D32F2F"
+            android:paddingHorizontal="14dp"
+            android:paddingVertical="4dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- БОЛЬШАЯ КАРТИНКА -->
+        <ImageView
+            android:id="@+id/iv_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:src="@drawable/jab"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:background="#1A0000"
+            android:contentDescription="Technique Image"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- ПОДСКАЗКА ДЛЯ КЛИКА ПО КАРТИНКЕ -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👆 Нажми на картинку, чтобы посмотреть видео"
+            android:textColor="#999999"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:padding="8dp" />
+
+        <!-- БОЛЬШОЕ ОПИСАНИЕ -->
+        <TextView
+            android:id="@+id/tv_detail_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Описание"
+            android:textColor="#DDDDDD"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="6dp"
+            android:padding="12dp"
+            android:background="#222222"
+            android:radius="8dp" />
+
+        <!-- КНОПКА "НАЗАД" (ВНИЗУ, ПОД ТЕКСТОМ) -->
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/muay_red"
+            android:text="🔙 НАЗАД"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.1" />
+
+    </LinearLayout>
+
+</ScrollView>
